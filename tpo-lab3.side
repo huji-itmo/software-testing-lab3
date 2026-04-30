@@ -1,0 +1,55 @@
+{
+  "id": "b3e73a19-1eec-41a1-a5ea-70035508e0a1",
+  "version": "2.0",
+  "name": "tpo-lab3",
+  "url": "https://smi2.ru",
+  "tests": [{
+    "id": "f81407e2-360a-425c-a3c5-549bf1a08113",
+    "name": "button_stop_negative_works",
+    "commands": [{
+      "id": "c2828144-77b1-4794-822a-2b8cdc2aee38",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3de0c4c-0d88-417a-86b8-986df9fb7469",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1944x1070",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c93a8435-3f16-4871-9c14-19136efd57d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GoodFeedToggle_sourceToggleSwitcher__EweEu",
+      "targets": [
+        ["css=.GoodFeedToggle_sourceToggleSwitcher__EweEu", "css:finder"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d9a24fe-d108-4a76-8dcf-b3fe59542e2c",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "xpath=//section[4]/div/section/div/div",
+      "targets": [
+        ["css=.news_wrapper__PgNfW:nth-child(3) .news_logoNameCont__yWPgs", "css:finder"],
+        ["xpath=//section[4]/div/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a11a580e-7a3d-486e-bb72-542044c03542",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://smi2.ru/"],
+  "plugins": []
+}
