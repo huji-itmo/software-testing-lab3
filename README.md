@@ -2,7 +2,7 @@
 
 Григорьев Давид Р3315
 
-# Вариант №95100: smi2.ru - [https://https://smi2.ru/](https://https://smi2.ru/)
+# Вариант №95100: smi2.ru - [https://smi2.ru/](https://smi2.ru/)
 
 ## Требования к выполнению работы:
 
